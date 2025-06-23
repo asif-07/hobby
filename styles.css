@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.section {
+    padding: 60px 20px;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+#hero {
+    background: #12406C;
+    color: #fff;
+    text-align: center;
+}
+.primary-cta {
+    background: #F9B000;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.secondary-cta {
+    background: #eee;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.stats {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background: #EEF5FF;
+    padding: 20px;
+}
+.tabs {
+    margin-bottom: 20px;
+}
+.tab {
+    margin-right: 5px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+.tab.active {
+    background: #12406C;
+    color: #fff;
+}
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.timeline li { margin-bottom: 10px; }
+.carousel { display: flex; gap: 10px; }
+.carousel .slide { background: #f4f4f4; padding: 20px; }
+.profiles { display: flex; gap: 20px; }
+.profile { background: #f4f4f4; padding: 20px; }
+blockquote { border-left: 4px solid #F9B000; padding-left: 10px; }
+#pricing select { margin: 0 10px; }
+.risk-text { background: #EEF5FF; padding: 10px; }
+footer { background: #12406C; color: #fff; text-align: center; }
